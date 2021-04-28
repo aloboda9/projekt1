@@ -7,9 +7,9 @@ def lista_rekurencyjnie(lista): #im pretty content from this definition
             nowa_lista.append(lista[0])
         return nowa_lista + lista_rekurencyjnie(lista[1:])
 
-lista_podana  = [1,8,23,24,16,70,13]
-lista_podana2 = [12,32,63,23,45,234,5745,123,3475]
-lista_podana3 = [12541236,423,357,1247,233,432,24,65]
+lista_podana  = [1,8,133,24,16,69,133]
+lista_podana2 = [72,32,63,23,45,234,5745,112,34765]
+lista_podana3 = [12541236,4263,357,660,233,432,24,12]
 
 print("Lista 1:",lista_podana,"\n","Lista 2:",lista_podana2,"\n","Lista 3:",lista_podana3)
 
